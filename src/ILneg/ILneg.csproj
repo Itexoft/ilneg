@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <AssemblyName>ilneg</AssemblyName>
+        <PackageId>ilneg</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ILneg.Core\ILneg.Core.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Condition="$(ArtifactsRoot) != ''" Include="$(ArtifactsRoot)/**" Pack="true" PackagePath=""/>
+    </ItemGroup>
+</Project>

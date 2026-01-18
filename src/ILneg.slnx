@@ -1,0 +1,4 @@
+<Solution>
+    <Project Path="ILneg.Core\ILneg.Core.csproj"/>
+    <Project Path="ILneg\ILneg.csproj"/>
+</Solution>
